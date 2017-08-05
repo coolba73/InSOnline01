@@ -1,15 +1,3 @@
-<!doctype html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>LayoutTest01</title>
-  <base href="/">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script type="text/javascript">
-
 jQuery(document).ready(function(){
 
 	$('.click').click(function(){
@@ -41,20 +29,3 @@ jQuery(document).ready(function(){
 		  return false;
 	});
 });
-
-
-     
-
-
-  </script>
-  
-
-    
-</head>
-<body>
-  <app-root>Loading.....</app-root>
-</body>
-  <script type="text/javascript"> 
-  setBackground();
-</script>   
-</html>
