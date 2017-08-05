@@ -5,14 +5,22 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 
+import { AppRoutingModule } from "./app.routing";
+
+import { CorpValueComponent } from "./CoporationValuation/corpvalue.component";
+import { RealEstateValutionComponent } from "./RealEstateValuation/rev.component";
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CorpValueComponent,
+    RealEstateValutionComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

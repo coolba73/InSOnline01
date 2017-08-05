@@ -1,8 +1,9 @@
 <div class="wrapper">
   <div class="menu">
     <ul>
-      <li><a href="#">기업가치평가</a></li>
-      <li><a href="#">부동산평가</a></li>
+      <!-- <li><a href="#">기업가치평가</a></li> -->
+      <li><a routerLink="/corpvalue" >기업가치평가</a></li> 
+      <li><a routerLink="/realestate">부동산평가</a></li>
     </ul>
   </div>
   <div class="main">
@@ -18,9 +19,13 @@
       <p>
       </p>
     </div>
-    <br>
-  </div>
 
+    <div class="txt">
+      <router-outlet></router-outlet>
+    </div>
+
+    
+  </div>
 </div>
 
 
