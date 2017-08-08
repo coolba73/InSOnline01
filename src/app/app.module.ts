@@ -9,12 +9,14 @@ import { AppRoutingModule } from "./app.routing";
 
 import { CorpValueComponent } from "./CoporationValuation/corpvalue.component";
 import { RealEstateValutionComponent } from "./RealEstateValuation/rev.component";
+import { MyJobComponent } from "./MyJob/myjob.component";
 
 @NgModule({
   declarations: [
     AppComponent,
     CorpValueComponent,
-    RealEstateValutionComponent
+    RealEstateValutionComponent,
+    MyJobComponent
   ],
   imports: [
     BrowserModule,

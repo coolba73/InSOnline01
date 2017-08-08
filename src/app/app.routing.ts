@@ -3,6 +3,8 @@ import { NgModule } from "@angular/core";
 
 import { CorpValueComponent } from "./CoporationValuation/corpvalue.component";
 import { RealEstateValutionComponent } from "./RealEstateValuation/rev.component";
+import { MyJobComponent } from "./MyJob/myjob.component";
+
 
 export const routes : Routes = [
 
@@ -18,6 +20,11 @@ export const routes : Routes = [
     {
         path:'realestate',
         component:RealEstateValutionComponent
+    },
+    {
+        path:'myjob',
+        component:MyJobComponent
+        
     }
 ];
 

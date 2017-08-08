@@ -1,12 +1,16 @@
 <div class="wrapper">
-  <div class="menu">
+  
+  <div class="menu" >
     <ul>
       <!-- <li><a href="#">기업가치평가</a></li> -->
+      <li><a routerLink="/myjob" >나의 일</a></li> 
       <li><a routerLink="/corpvalue" >기업가치평가</a></li> 
       <li><a routerLink="/realestate">부동산평가</a></li>
     </ul>
   </div>
-  <div class="main">
+
+  <div class="main" >
+
     <div class="button">
       <div id="burger">
         <div class="click"></div>
@@ -14,16 +18,17 @@
       </div>
     </div>
 
-    <div class="txt">
+     <div class="txt">
       <h1>Insight Studio Online</h1>
       <p>
       </p>
     </div>
 
-    <div class="txt">
+    <div class="txt" >
       <router-outlet></router-outlet>
-    </div>
+    </div> 
 
+ 
     
   </div>
 </div>
